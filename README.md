@@ -1,9 +1,17 @@
 # azure-ai-900-4
-# Passo a passo de como realizar uma pesquisa de documentos utilizando Azure AI Services
+# Step-by-step guide on how to conduct a document search using Azure AI Services:
 
-1. Criar um *Azure AI Search* resource (utilizado para vasculhar informações de documentos e categorizá-las
-2. Criar um container (meio de armazenamento de arquivos) e realizar o upload de documentos a serem analizados
-3. Conectar o AI Search ao container e realizar a indexação dos arquivos, selecionando quais informações desejamos que sejam extraídas, como a localização, sentimento, etc.
-4. No AI Search, utilizar a função "Search Explorer" para explorar o resultado obtido na etapa 4
-5. Pode-se também analisar imagens e base de conhecimento que foram geradas no container utilizado no projeto
-6. Para maior manipulação e melhor visualização dos dados, exportar arquivo JSON para uma ferramenta como o Python
+1. Create an Azure AI Search resource: This resource will be used to search for information in documents and categorize them.
+
+2. Create a container and upload documents: Create a container (a storage medium for files) and upload the documents you want to analyze.
+
+3. Connect Azure AI Search to the container and index files: Connect Azure AI Search to your container and index the files. During indexing, select the information you want to extract, such as location, sentiment, etc.
+
+4. Use the Search Explorer in AI Search to explore the results: Use the "Search Explorer" function in Azure AI Search to explore the results obtained during indexing.
+
+5. Analyze images and knowledge base: In addition to text documents, you can also analyze images and knowledge bases generated in your container.
+
+6. Export JSON file for data manipulation and visualization: For further manipulation and better data visualization, export the JSON file to a tool like Python.
+
+
+more details: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
